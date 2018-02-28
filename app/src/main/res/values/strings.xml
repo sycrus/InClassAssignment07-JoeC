@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Famous People</string>
+    <string name="name_hint">Famous Person</string>
+    <string name="fields_hint">famous for</string>
+    <string name="doa_checkbox">Still alive?</string>
+    <string name="male_radio_button">Male</string>
+    <string name="female_radio_button">Female</string>
+    <string name="submit_button">Submit</string>
+
+    <string-array name="fields_array">
+        <item>Politics</item>
+        <item>Sports</item>
+        <item>Arts</item>
+        <item>Science</item>
+        <item>Entertainment</item>
+        <item>Others</item>
+    </string-array>
+</resources>
