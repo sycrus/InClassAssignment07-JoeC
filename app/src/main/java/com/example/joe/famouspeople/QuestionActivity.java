@@ -80,16 +80,10 @@ public class QuestionActivity extends AppCompatActivity  {
                     person.setAlive(false);
                 }
 
-                Intent intent = new Intent(QuestionActivity.this, DisplayActivity.class);
-                /*
-                intent.putExtra(Keys.NAME, person.getName());
-                intent.putExtra(Keys.GENDER, person.getGender());
-                intent.putExtra(Keys.FIELD, person.getField());
-                intent.putExtra(Keys.IS_ALIVE, person.isAlive());
-                  */
+                Intent intent = new Intent();
                 intent.putExtra(Keys.FAMOUS_PERSON, person);
-
-                startActivity(intent);
+                setResult(RESULT_OK,intent);
+                finish();
             }
 
         });

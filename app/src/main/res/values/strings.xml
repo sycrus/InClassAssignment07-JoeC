@@ -6,6 +6,7 @@
     <string name="male_radio_button">Male</string>
     <string name="female_radio_button">Female</string>
     <string name="submit_button">Submit</string>
+    <string name="add_person_button">Add Famous Person</string>
 
     <string-array name="fields_array">
         <item>Politics</item>
